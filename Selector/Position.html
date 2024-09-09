@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    section{
+        height: 400px;
+        width: 400px;
+        border: 2px solid black;
+       
+    }
+    div{
+        height: 100px;
+        width: 100px;
+        position: relative;
+    }
+    section :nth-child(1){
+        background-color: aquamarine;
+        position: absolute;
+        top: 10px;
+        z-index: 1;
+    }
+    section :nth-child(2){
+        background-color:brown;
+        position: absolute;
+        top: 70px;
+        z-index: 4;
+    }
+    section :nth-child(3){
+        background-color:burlywood;
+        position: absolute;
+        top: 50px;
+        z-index: 3;
+    }
+    section :nth-child(4){
+        background-color:coral;
+        position: absolute;
+        top: 30px;
+        z-index: 2;
+    }
+    
+</style>
+<body>
+    <section>
+        <div>child1</div>
+        <div>child2</div>
+        <div>child3</div>
+        <div>child4</div>
+    </section>
+</body>
+</html>

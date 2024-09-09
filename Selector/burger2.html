@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    section{
+        background: radial-gradient( #FFE09F,#FFCC5E) ;
+        height: 600px;
+        width: 600px;
+
+       }
+    div{
+        height: 100px;
+        width: 100px;
+        position: relative;
+    }
+    section :nth-child(1){
+        position: absolute;
+        left: 210px;
+        top: 30px;
+        z-index: 1;
+        
+    }
+    section :nth-child(2){
+        position: absolute;
+        top: 70px;
+        left: -220px;
+        z-index: 2;
+       
+    }
+    section :nth-child(3){
+        position: absolute;
+        top: 140px;
+        left: -110px;
+        z-index: 3;
+    }
+    #tag{
+        height: 180px;
+        width: 180px;
+        background-color: red;
+        position: absolute;
+        z-index: 4;
+        bottom: 45px;
+        border-radius: 50%;
+        left: 20px;
+        
+    }
+    #inner{
+            height:150px ;
+            width: 150px;
+            border-radius: 50%;
+            border: 2px dashed white;
+            margin-top: -18px;
+            margin-left: -198px;
+    }
+    #text{
+            font-size: 50px;
+            color: white;
+            margin-top: auto;
+            margin-left: -200px;
+
+    }
+    #para{
+        font-size: 50px;
+        color: white;
+        margin-left: -200px;
+    }
+</style>
+<body>
+    <section>
+        <div ><img src="https://i.ibb.co/mS81DkL/coke-removebg-preview.png" alt=""></div>
+        <div ><img src="https://i.ibb.co/jH3hjMH/fries-removebg-preview.png" alt=""></div>
+        <div ><img src="https://i.ibb.co/6H9X4Fc/Burger-removebg-preview.png" alt=""></div>
+        <div id="tag">
+            <div id="inner">
+                    <div id="text">$5.49</div>
+                    <div id="para">ONLY</div>
+            </div>
+        </div>
+        
+    </section> 
+</body>
+</html>

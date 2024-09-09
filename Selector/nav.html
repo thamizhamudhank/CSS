@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: black;
+        }
+        button:hover .stars{
+            display: block;
+            filter: drop-shadow(0 0 10px aqua);
+            right: -10px;
+            --x:50px;
+            --y:50px;
+        }
+    </style>
+    <button>hello
+        <div class="sparkle top-left"></div>
+        <div class="sparkle top-right"></div>
+        <div class="sparkle bottom-right"></div>
+        <div class="sparkle bottom-left"></div>
+    </button>
+</body>
+</html>

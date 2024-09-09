@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.periodic-table {
+    display: grid;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.element {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+}
+
+.atomic-number {
+    font-size: 12px;
+    color: #666;
+}
+
+.symbol {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 10px;
+    color: #666;
+}
+
+/* Customize colors based on element types if needed */
